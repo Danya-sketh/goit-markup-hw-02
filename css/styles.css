@@ -1,6 +1,8 @@
 :root {
- color: #FFFFFF;
+color: #FFFFFF;
 }
+
+
 
 /* body */
 body {
@@ -12,85 +14,72 @@ background-color: #FFFFFF;
 
 /* header */
 
-.link {
-    font-family: 'Raleway', sans-serif;
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 21px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4D5AE5;
-text-decoration: none;
+:root {
+    --logo-color:#4D5AE5;
 }
 
 .link {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-text-decoration: none;
-color: #2E2F42;
+    font-family: 'Releway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-color);
+    text-decoration: none;
 }
 
-.link:hover
-.link:focus {
-    color: #404BBF;
+:root {
+    --logo-span-color: #2E2F42;
 }
-
 
 
 .logo-sp {
-    font-family: 'Raleway';
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 21px;
-line-height: 21px;
-line-height: 21px;
-color: #2E2F42;
+    color: var(--logo-span-color);
 }
 
 .list {
     list-style: none;
 }
 
-.list {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color:#434455;
+:root {
+    --menu1-color: #2E2F42;
 }
 
-/* adress */
+.link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--menu1-color);
+    text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+    color: #404BBF;
+}
 
 .adress-1 {
     font-style: normal;
-    cursor: none;
+}
+
+.list {
+    list-style: none;
+}
+
+:root {
+    --adress1-color: #434455;
 }
 
 .link {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.02em;
-color: #434455;
-line-height: 1.5;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--adress1-color);
 }
 
-.link {
-    color: #434455;
-}
-
-.link:hover
+.link:hover,
 .link:focus {
     color: #404BBF;
 }
