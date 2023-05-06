@@ -1,4 +1,38 @@
+
+/* body */
 .body {
     font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
+counter-reset: #434455;
+background-attachment:#FFFFFF;
+}
+
+/* header */
+
+.logo-sp {
+    width: 44px;
+height: 21px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+color: #2E2F42;
+}
+
+.logo-p {
+    width: 44px;
+height: 21px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+color: #4D5AE5;
+}
+
+.logo-a {
+    text-decoration: none;
 }
