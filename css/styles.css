@@ -25,10 +25,32 @@ color: #4D5AE5;
 text-decoration: none;
 }
 
+.link {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+text-decoration: none;
+color: #2E2F42;
+}
+
+.link:hover
+.link:focus {
+    color: #404BBF;
+}
+
 
 
 .logo-sp {
-    color: #2e2f42;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+line-height: 21px;
+line-height: 21px;
+color: #2E2F42;
 }
 
 .list {
@@ -44,4 +66,31 @@ line-height: 24px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color:#434455;
+}
+
+/* adress */
+
+.adress-1 {
+    font-style: normal;
+    cursor: none;
+}
+
+.link {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
+line-height: 1.5;
+}
+
+.link {
+    color: #434455;
+}
+
+.link:hover
+.link:focus {
+    color: #404BBF;
 }
