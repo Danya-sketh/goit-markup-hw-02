@@ -25,7 +25,7 @@ color: #4D5AE5;
 text-decoration: none;
 }
 
-.link {
+.link-2 {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -35,8 +35,8 @@ text-decoration: none;
 color: #2E2F42;
 }
 
-.link:hover
-.link:focus {
+.link-2:hover
+.link-2:focus {
     color: #404BBF;
 }
 
@@ -53,11 +53,11 @@ line-height: 21px;
 color: #2E2F42;
 }
 
-.list {
+.list-1 {
     list-style: none;
 }
 
-.menu-a {
+.list-1 {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -75,7 +75,7 @@ color:#434455;
     cursor: none;
 }
 
-.link {
+.link-3 {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -86,11 +86,11 @@ color: #434455;
 line-height: 1.5;
 }
 
-.link {
+.link-3 {
     color: #434455;
 }
 
-.link:hover
-.link:focus {
+.link-3:hover
+.link-3:focus {
     color: #404BBF;
 }
