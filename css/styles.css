@@ -12,7 +12,7 @@ background-color: #FFFFFF;
 
 /* header */
 
-.link-1 {
+.link {
     font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
@@ -25,7 +25,7 @@ color: #4D5AE5;
 text-decoration: none;
 }
 
-.link-2 {
+.link {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -35,8 +35,8 @@ text-decoration: none;
 color: #2E2F42;
 }
 
-.link-2:hover
-.link-2:focus {
+.link:hover
+.link:focus {
     color: #404BBF;
 }
 
@@ -53,11 +53,11 @@ line-height: 21px;
 color: #2E2F42;
 }
 
-.list-1 {
+.list {
     list-style: none;
 }
 
-.list-1 {
+.list {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -75,7 +75,7 @@ color:#434455;
     cursor: none;
 }
 
-.link-3 {
+.link {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -86,11 +86,11 @@ color: #434455;
 line-height: 1.5;
 }
 
-.link-3 {
+.link {
     color: #434455;
 }
 
-.link-3:hover
-.link-3:focus {
+.link:hover
+.link:focus {
     color: #404BBF;
 }
