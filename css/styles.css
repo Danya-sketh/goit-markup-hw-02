@@ -1,6 +1,4 @@
-:root {
-color: #FFFFFF;
-}
+
 
 :root {
 --logo-color: #4D5AE5;
@@ -18,7 +16,7 @@ background-color: #FFFFFF;
 
 /* header */
 
-.logo-link {
+.logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -26,19 +24,21 @@ background-color: #FFFFFF;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-color);
+}
+
+.link {
     text-decoration: none;
 }
 
-.logo-color-link {
-    color: var(--text-color);
-}
-
-.menu-list {
+.list {
     list-style: none;
 }
 
+.logo-color {
+    color: var(--text-color);
+}
 
-.menu-link {
+.nav-menu-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -47,8 +47,8 @@ background-color: #FFFFFF;
     text-decoration: none;
 }
 
-.menu-link:hover,
-.menu-link:focus {
+.nav-menu-link:hover,
+.nav-menu-link:focus {
     color: #404BBF;
 }
 
