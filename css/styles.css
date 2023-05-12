@@ -56,7 +56,7 @@ background-color: #FFFFFF;
     font-style: normal;
 }
 
-.address-list {
+.list {
     list-style: none;
 }
 
@@ -70,5 +70,5 @@ background-color: #FFFFFF;
 
 .address-link:hover,
 .address-link:focus {
-    color: #404BBF;
+    color: var(--address-color);
 }
