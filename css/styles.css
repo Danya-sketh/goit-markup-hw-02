@@ -219,3 +219,27 @@ color: #434455;
     letter-spacing: 0.02em;
     color: var(--address-color);
 }
+
+/*----------------- FOOTER -----------------*/
+
+.footer-portf {
+    color: var(--text-color);
+}
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.logo-sp {
+    color: var(--portf-btn-backgr-color);
+}
