@@ -204,3 +204,18 @@ color: #434455;
 .link {
     text-decoration: none;
 }
+
+.sect-2-h {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.sect-2-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--address-color);
+}
