@@ -102,3 +102,68 @@ background-color: #FFFFFF;
 .hero-btn:focus {
 background-color: #404BBF;
 }
+
+/*----------------- ABOUT-US ------------------*/
+
+.about-list-h {
+    font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.text {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+/*----------------- speciality -----------------*/
+
+.speciality-h {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--text-color);
+}
+
+/*----------------- OUR-TEAM -------------------*/
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-h {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--text-color);
+}
+
+.team-li {
+    background-color: #FFFFFF;
+}
+
+.team-list-h {
+    font-size: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.team-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+}
