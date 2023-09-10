@@ -206,6 +206,15 @@ color: #434455;
     text-decoration: none;
 }
 
+.portfolio-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
 .portfolio-box-title {
     font-weight: 500;
     font-size: 20px;
