@@ -206,7 +206,7 @@ color: #434455;
     text-decoration: none;
 }
 
-.sect-h {
+.portfolio-box-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -214,7 +214,7 @@ color: #434455;
     color: var(--text-color);
 }
 
-.sect-p {
+.portfolio-box-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
