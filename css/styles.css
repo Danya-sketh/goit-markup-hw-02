@@ -179,6 +179,12 @@ color: #434455;
     color: #F4F4FD;
 }
 
+.footer-text {
+    line-height: 1.5;
+    color: var(--portf-btn-backgr-color);
+    letter-spacing: 0.02em;
+}
+
 
 /*----------------------- PORTFOLIO --------------------------*/
 /*----------------------- PORTFOLIO --------------------------*/
